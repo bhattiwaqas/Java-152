@@ -1,0 +1,25 @@
+
+package nb.test.gamepackagev1;
+import edu.sjcny.gpv1.*;
+import java.awt.*;
+
+
+public class NBTestGamePackageV1 extends DrawableAdapter
+{  // start class 
+    static NBTestGamePackageV1 ge = new NBTestGamePackageV1(); 
+    static GameBoard gb = new GameBoard(ge, "Blank Game Board");
+    
+    
+    public static void main(String[] args) 
+    { // start main    
+          showGameBoard(gb);
+          
+    }   //end main
+    public void draw(Graphics g)
+    {// start draw
+           
+            
+    }// end draw
+    
+}// end class
+ 
